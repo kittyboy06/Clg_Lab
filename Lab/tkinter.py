@@ -3,6 +3,7 @@ from tkinter import messagebox
 
 def submit_form():
     username = entry_username.get()
+    
     password = entry_password.get()
     messagebox.showinfo("Registration Successful", f"Welcome, {username}!")
 
