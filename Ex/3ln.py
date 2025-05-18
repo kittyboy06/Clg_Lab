@@ -1,2 +1,4 @@
-a = (1,2,3,4,0,7,5)
-print(all(a))
+a = {"name":"Afsal","Clg":"JCE"}
+print(a.items())
+print(a.values())
+print(a.keys())
