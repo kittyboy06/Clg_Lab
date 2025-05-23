@@ -10,5 +10,5 @@ print(f"Words Starting with {alpha}")
 for index,word in enumerate(words):
     if word.lower().startswith(alpha):
         print(f"Index {index}:{word}")
-    else:
-        print("Not found")
+else:
+    print("Not found")

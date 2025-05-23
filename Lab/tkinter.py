@@ -21,6 +21,6 @@ entry_password = tk.Entry(root, show="*")
 entry_password.grid(row=1, column=1, padx=10, pady=10)
 
 submit_button = tk.Button(root, text="submit", command=submit_form)
-submit_button.grid(row=2, column=0, columnspan=2, pady=10)
+submit_button.grid(row=2, column=0, columnspan=3, pady=10)
 
 root.mainloop()
