@@ -7,7 +7,7 @@ try:
         name, age = line.strip().split()
         student_records.append((name, int(age)))
 
-    sorted_records = sorted(student_records, key=lambda x: x[0])
+    sorted_records = sorted(student_records, key = lambda x : x[0])
 
     print("NAME AGE")
     for record in sorted_records:

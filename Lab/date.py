@@ -9,6 +9,9 @@ print("Local time:", local_time)
 utc_time = dt.datetime.now(dt.UTC)
 print("UTC time:", utc_time)
 
+gmt_time = dt.datetime.now(dt.timezone.utc)
+print("GMT Time:",gmt_time)
+
 # ISO format of local time
 iso_time = local_time.isoformat()
 print("ISO time:", iso_time)
