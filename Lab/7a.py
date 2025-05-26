@@ -6,5 +6,5 @@ def palindrome_checker(s):
     else:
         return False
 
-str_input = input("Enter a string: ")
+str_input = input("Enter a string: ").lower()
 print("Palindrome:" , palindrome_checker(str_input))

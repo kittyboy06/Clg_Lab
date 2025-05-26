@@ -1,4 +1,4 @@
-f1 = 'myFile.txt'
+f1 = 'Lab/myFile.txt'
 
 try:
     with open(f1, 'r') as file:

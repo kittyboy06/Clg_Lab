@@ -1,11 +1,10 @@
 import tkinter as tk
-from tkinter import messagebox
 
 def submit_form():
     username = entry_username.get()
     
     password = entry_password.get()
-    messagebox.showinfo("Registration Successful", f"Welcome, {username}!")
+    tk.messagebox.showinfo("Registration Successful", f"Welcome, {username}!")
 
 root = tk.Tk()
 root.title("Registration form:")
